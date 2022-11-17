@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100wh;
+}
+.gallery{
+    height: 50%;
+    width:70%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: .4rem;
+    background-color: antiquewhite;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+}
